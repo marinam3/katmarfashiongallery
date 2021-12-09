@@ -5,8 +5,6 @@ body{
 	line-height:1.5;
 	background-color:whitesmoke;	
 }
-.container{	
-}
 /* Header with Logo */
 .header{
 	display: flex;
@@ -105,6 +103,41 @@ li {
 h4{
 	color: #808080;
 }
+/*Index Page*/
+.main-container{
+	display:flex;
+}
+/* Info Card*/
+.info-card{
+	order:1;
+	align-self:flex-start;
+	flex-basis:18%;
+}
+/*Index main image*/
+.main-img{
+	order:2;
+	justify-content:center;
+	flex-wrap:wrap;
+	flex-basis:60%;
+}
+.social-box{
+	order:3;
+	height:420px;
+	width:18%;
+	border:1px solid #ccc;
+	overflow:auto;
+}
+/*Reviews*/
+.container-revs{
+	display:flex;
+	align-self:center;
+	flex-basis:80%;
+}
+.accordion-header{
+	text-decoration-color: black;
+	font-weight:bold;
+	font-size: large;
+}
 /* Contact us icon */
 .box-1{
 	text-align: center;
@@ -128,7 +161,7 @@ h4{
 .secondunder{
 	display:flex;
 	flex-wrap:wrap;
-	border:1px #cccsolid;
+	border:1px #ccc solid;
 	padding:10px
 }
 .get-form{
