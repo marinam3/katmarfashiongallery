@@ -1,0 +1,23 @@
+body{
+   background-color:whitesmoke;
+   text-decoration-color: indigo; 
+}
+
+.fa {
+    padding: 5px;
+  font-size: 10px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10%;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-instagram { 
+    background:#ae45ce;
+    color:white;
+}
