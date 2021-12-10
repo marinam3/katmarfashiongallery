@@ -21,11 +21,11 @@
     </br>
     <div class="container header">
         <div class="row">
-            <div class="col-lg-10 logo">
+            <div class="col-9 logo">
                 <h1 class="logo">KatMar Fashion Gallery</h1>
             </div>
 
-            <div class="col-lg-2 align-self-center search-container">
+            <div class="col-3 align-self-center search-container">
                 <form action="/action_page.php">
                     <input type="text" placeholder="Search.." name="search">
                     <button type="submit"><i class="fa fa-search"></i></button>
@@ -35,62 +35,80 @@
     </div>
     </br>
     </br>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    <a class="nav-link" href="about/about.html" target="_blank">About Us</a>
-                    <a class="nav-link" href="gallery/gallery.html" target="_blank">Gallery</a>
-                    <a class="nav-link" href="contact/contact.html" target="_blank">Contact Us</a>
+    <div class=navbar-box>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #3ca39e;">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="about/about.html" target="_blank">About Us</a>
+                        <a class="nav-link" href="gallery/gallery.html" target="_blank">Gallery</a>
+                        <a class="nav-link" href="contact/contact.html" target="_blank">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="main-container"></div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <div>
+                    <div class="card-header">
+                        <h5 class="card-title">Contact Us</h5>
+                    </div>
+                    <div>
+                        <p class="card-text"><span class="glyphicon glyphicon-time"></span></p>
+                        <ul>
+                            <li>Mon - Wed 9:00-18:00</li>
+                            <li>Thurs - Fri 9:00-20:00</li>
+                            <li>Sat - Sun 10:00-21:00</li>
+                        </ul>
+                    </div>
+                    <br>
+                    <ul>
+                        <li><span class="glyphicon glyphicon-earphone"></span> +353871234567</li>
+                        </br>
+                        <li><a href="mailto:info@katmargallery.com"><span class="glyphicon glyphicon-envelope"></span>
+                                info@katmargallery.com</a></li>
+                        </br>
+                        <li><span class="glyphicon glyphicon-map-marker"></span> </br>Cranmer Place, 7 Cranmer Lane,
+                            Ballsbridge, Dublin</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://www.facebook.com/Katmar-Gallery-104714485395274/" class="fa fa-facebook"
+                            target="_blank" class="card-link"></a>
+                        <p>Facebook</p>
+                        <a href="https://www.instagram.com/accounts/login/?hl=en" class="fa fa-instagram"
+                            target="_blank" class="card-link"></a>
+                        <p>Instagram</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
-
-    <div class="main-container">
-        <div class="info-card" style="width: 20%;" class="example-content-secondary">
-            <div class="card-header">
-                <h5 class="card-title">Contact Us</h5>
-            </div>
-            <div class="card-body">
-                <p class="card-text">Opening hours: </p>
-                <li class="list-group-item">Mon - Wed 9:00-18:00</li>
-                <li class="list-group-item">Thurs - Fri 9:00-20:00</li>
-                <li class="list-group-item">Sat - Sun 10:00-21:00</li>
-
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Phone: +353871234567</li>
-                <li class="list-group-item"><a href="mailto:info@katmargallery.com">Email:
-                        info@katmargallery.com</a></li>
-            </ul>
-            <div class="card-body">
-                <a href="https://www.facebook.com/Katmar-Gallery-104714485395274/" class="fa fa-facebook"
-                    target="_blank" class="card-link"></a>
-                <p>Facebook</p>
-                <a href="https://www.instagram.com/accounts/login/?hl=en" class="fa fa-instagram" target="_blank"
-                    class="card-link"></a>
-                <p>Instagram</p>
+        <div class="midcolumn">
+            <div class="main-img">
+                <a href="gallery/gallery.html"> <img src="images/dress.jpeg" alt="picture of dresses on mannequins"
+                        target="_blank">
+                </a>
             </div>
         </div>
-
-        <div class="main-img" class="example-content-main">
-            <a href="gallery/gallery.html"> <img src="images/dress.jpeg" class="rounded mx-auto d-block"
-                    alt="picture of dresses on mannequins" target="_blank">
-            </a>
-        </div>
-
-        <div class="social-box" class="example-content-secondary" data-bs-spy="overflow-y:scroll;"
-            data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" height="20%" tabindex="0">
-            <a class="twitter-timeline" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" data-height="20"
-                data-tweet-limit="8">Tweets by
-                TwitterDev</a>
-            </a>
+        <div class="rightcolumn">
+            <div>
+                <div class="social-box" class="example-content-secondary" data-bs-spy="overflow-y:scroll;"
+                    data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" height="20%"
+                    tabindex="0">
+                    <a class="twitter-timeline" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw"
+                        data-height="20" data-tweet-limit="8">Tweets by
+                        TwitterDev</a>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="container" class="container-revs">
@@ -99,25 +117,30 @@
                 <div class="col-2">
                 </div>
                 <div class="col-8">
-                    <div class="accordion" id="accordionExample">
+                    <div class="accordion">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <p>Reviews: <span class="glyphicon glyphicon-star"></span><span
-                                            class="glyphicon glyphicon-star"></span><span
-                                            class="glyphicon glyphicon-star"></span>
+                                    <h3>Reviews: <span class="glyphicon glyphicon-star checked"></span><span
+                                            class="glyphicon glyphicon-star checked"></span><span
+                                            class="glyphicon glyphicon-star checked"></span><span
+                                            class="glyphicon glyphicon-star checked"></span><span
+                                            class="glyphicon glyphicon-star"></span></h3>
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until
-                                    the collapse plugin adds the appropriate classes that we use to style each element.
-                                    These classes control the overall appearance, as well as the showing and hiding via
+                                    <strong>This is the first item's accordion body.</strong> It is shown by
+                                    default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element.
+                                    These classes control the overall appearance, as well as the showing and hiding
+                                    via
                                     CSS
-                                    transitions. You can modify any of this with custom CSS or overriding our default
+                                    transitions. You can modify any of this with custom CSS or overriding our
+                                    default
                                     variables. It's also worth noting that just about any HTML can go within the
                                     <code>.accordion-body</code>, though the transition does limit overflow.
                                 </div>
@@ -127,22 +150,26 @@
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <p>Reviews: <span class="glyphicon glyphicon-star"></span><span
-                                            class="glyphicon glyphicon-star"></span><span
-                                            class="glyphicon glyphicon-star"></span><span
-                                            class="glyphicon glyphicon-star"></span><span
-                                            class="glyphicon glyphicon-star"></span>
+                                    <h3>Reviews: <span class="glyphicon glyphicon-star checked"></span><span
+                                            class="glyphicon glyphicon-star checked"></span><span
+                                            class="glyphicon glyphicon-star checked"></span><span
+                                            class="glyphicon glyphicon-star checked"></span><span
+                                            class="glyphicon glyphicon-star checked"></span></h3>
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by
+                                    default,
                                     until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
+                                    element. These classes control the overall appearance, as well as the showing
+                                    and
                                     hiding
-                                    via CSS transitions. You can modify any of this with custom CSS or overriding our
-                                    default variables. It's also worth noting that just about any HTML can go within the
+                                    via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our
+                                    default variables. It's also worth noting that just about any HTML can go within
+                                    the
                                     <code>.accordion-body</code>, though the transition does limit overflow.
                                 </div>
                             </div>
@@ -151,11 +178,11 @@
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <p>Reviews: <span class="glyphicon glyphicon-star"></span><span
+                                    <h3>Reviews: <span class="glyphicon glyphicon-star checked"></span><span
+                                            class="glyphicon glyphicon-star checked"></span><span
+                                            class="glyphicon glyphicon-star checked"></span><span
                                             class="glyphicon glyphicon-star"></span><span
-                                            class="glyphicon glyphicon-star"></span><span
-                                            class="glyphicon glyphicon-star"></span><span
-                                            class="glyphicon glyphicon-star"></span>
+                                            class="glyphicon glyphicon-star"></span></h3>
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
@@ -178,11 +205,12 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row spaceunder">
-            </div>
-        </div>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
+    <script src="script/script.js"></script>
 </body>
 <footer>
     <div class="footer-container">
@@ -239,7 +267,7 @@
             </br>
 
 
-            <form onsubmit="mySubscription()" id="userSub">
+            <form id="userSub">
                 <div class="newsletter">
                     <h4 class="title1"><b>NEWSLETTER SIGNUP</b></h4>
 
@@ -247,8 +275,8 @@
                 </div>
 
                 <div class="newsletter">
-                    <input type="submit" value="Subscribe" onlclick="mySubscription()" /><br />
-
+                    <input class="submitButton" type="button" value="Subscribe" onclick="mySubscription()" /><br />
+                    <div id="tick" class="hidden"><span class="glyphicon glyphicon-check"></span></div>
                 </div>
             </form>
 
