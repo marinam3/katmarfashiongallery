@@ -15,29 +15,51 @@ body{
 }
 .logo{
 	font-family:'Magneto';
-	font-size:200%;
+	font-size:205%;
 	min-height:10px;
 	align-items:flex-start;
 }
-/* Search Box */
-.search-container {
-    float: none;
-	min-height:10px;
-	align-items:center;	
- }
 
-.search-container button {
-  float: right;
-  padding: 5px 15px;
-  margin-top: 2px;
-  margin-right: 52px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
+/*Search Bar right top */
+.searchglass {
+  width: 80%;
+  position: relative;
+  display: flex;
 }
-.search-container button:hover {
-  background: #ccc;
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #0099ff;
+  border-right: none;
+  padding: 10px;
+  height: 41px;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #0099ff;
+}
+
+.searchButton {
+  width: 40px;
+  height: 41px;
+  border: 3px solid #0099ff;
+  background: #0099ff;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.wrap{
+  width: 15%;
+  position: absolute;
+  top: 8%;
+  left: 75%;
+
 }
 /* Navbar */
 .navbar-box{
@@ -72,11 +94,11 @@ li {
 }
 
 .navibar1 a:hover {
-  background-color: #111;
+  background-color: #737373;
 }
 
 .active {
-  background-color:  #d6d9db;
+  background-color: #33adff;
 }
 
 .header2{
@@ -89,7 +111,7 @@ li {
 
 
 .openBtn{	
-	background:#3ca39e;
+	background:#99d6ff;
 }
 
 
@@ -212,15 +234,16 @@ h4{
 	text-align: center;
 	flex:1;
 	order:2;
+	border-style: solid;
+	border-color: #4da6ff;
 }
-/* All forms */
-input,textarea{
-	text-align: center;
-	font-size:10pt;
+/* Get in touch form and newsletter */
+.formstyle{
 	width:50%;
 	height:40px;
-	background-color:#dee6f1;
-}
+	background-color:#cce0ff;
+	
+}	
 /* Footer */
 .footer-container{
 	display:flex;
@@ -258,8 +281,8 @@ input,textarea{
 	color:white;
 	text-decoration:none;
 }
-.social-con:hover{
-	color:#333333;
+.social-icon:hover{
+	color:#008ae6;
 }
 /*Right side of the footer - newsletter*/
 .footer3{
@@ -280,24 +303,16 @@ input,textarea{
 .footer5{
 	padding: 10px;
 	flex: 20%;	
-}
-
-
-
-/* Input elements and the submit button */
-input[type=text1], input[type=submit1] {
-  width: 20%;
-  padding: 10px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
+}ggggg
 
 
 /* Submit button */
 .submitButton{
-	background-color: #4CAF50; /* Green */
+	border-radius: 20px 20px 20px 20px;
+	cursor: pointer;
+	width: 200px;
+	height: 50px;
+	background-color: #005ce6;
 	border:none;
 	color: white;
 	padding: 15px 15px;
@@ -306,13 +321,13 @@ input[type=text1], input[type=submit1] {
 	display: inline-block;
 	font-size: 16px;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin: 8px 0;
 }
-.submitButton:hover {
-	background-color: white;
-	color: #4CAF50;
-  }
 
-input[type=submit1]:hover {
+.subbutton:hover {
   opacity: 0.8;
 }
 p{
@@ -408,3 +423,41 @@ body {font-family: Verdana, sans-serif;}
 }
 
 /*About page*/
+#box-1{
+	display: -webkit-box;  /* OLD - iOS 6-, Safari */
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	flex-grow: unitless value;
+}
+
+.box-inside1{
+	flex:1;
+	justify-content: center;
+
+}
+.picture1 {
+  width: 100%;
+  height: auto;
+}
+
+.about{
+	justify-content: center;
+	text-align: center;	
+	align-items:center;
+	border-bottom: 4px dotted blue;
+}
+.about_text{
+	font-family: 'Magneto';
+	font-size:45px;
+	line-height:1.5;
+	color: blue;
+}
+.about_text1{
+	font-size:25px;
+	line-height:1.5;
+	color: black;
+}
+.wom_box{
+	border-bottom: 4px dotted blue;
+}
