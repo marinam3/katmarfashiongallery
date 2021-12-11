@@ -354,7 +354,7 @@ p{
   }
   
   /* The expanding image container (positioning is needed to position the close button and the text) */
-  .container {
+  .img-container {
 	position: relative;
 	display: none;
   }
