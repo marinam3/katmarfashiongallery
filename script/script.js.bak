@@ -2,22 +2,6 @@
 function welcomeMsg() {
     alert("Welcome to KatMar Fashoin Gallery!")
 }
-
-//Function for Google search when someone searches in a search bar.
-const f = document.getElementById('form');
-const q = document.getElementById('query');
-const google = 'https://www.google.com/search?q=site%3A+';
-const site = 'https://marinam3.github.io/katmargallery.github.io/';
-
-function submitted(event) {
-  event.preventDefault();
-  const url = google + site + '+' + q.value;
-  const win = window.open(url, '_blank');
-  win.focus();
-}
-f.addEventListener('submit', submitted);
-
-
 //Function Send a message Form /Contact Page
 function myMessage() {
     event.preventDefault();
@@ -33,6 +17,15 @@ function hide() {
     document.getElementById("userForm").style.display = "none";
 }
 
+// Open the full screen search box (DRAFT SEARCH BOX)
+function openSearch() {
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+// Close the full screen search box (DRAFT SEARCH BOX)
+function closeSearch() {
+    document.getElementById("myOverlay").style.display = "none";
+}
 
 //Newsletter Form
 function hidden() {
