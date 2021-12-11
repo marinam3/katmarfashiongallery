@@ -18,11 +18,11 @@
 	</br>
 	<div class="container header">
 		<div class="row">
-			<div class="col-9 logo">
+			<div class="col-md-9 logo">
 				<h1 class="logo">KatMar Fashion Gallery</h1>
 			</div>
 
-			<div class="col-3 align-self-center search-container">
+			<div class="col-md-3 align-self-center search-container">
 				<form action="/action_page.php">
 					<input type="text" placeholder="Search.." name="search">
 					<button type="submit"><i class="fa fa-search"></i></button>
@@ -32,11 +32,9 @@
 	</div>
 	</br>
 	</br>
-	</br>
-
 	<div class=navbar-box>
-		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3ca39e;">
-			<div class=" container-fluid">
+		<nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #3ca39e;">
+			<div class="container-fluid">
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 					data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
 					aria-label="Toggle navigation">
@@ -45,9 +43,10 @@
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
 						<a class="nav-link" href="../index.html">Home</a>
-						<a class="nav-link" href="../about/aboutus.html" target="_blank">About Us</a>
+						<a class="nav-link" href="../about/about.html" target="_blank">About Us</a>
 						<a class="nav-link" href="../gallery/gallery.html" target="_blank">Gallery</a>
-						<a class="nav-link active" aria-current="page" href="contactus.html">Contact Us</a>
+						<a class="nav-link active" aria-current="page" href="contact.html" target="_blank">Contact
+							Us</a>
 					</div>
 				</div>
 			</div>
@@ -120,7 +119,10 @@
 		</br>
 		</br>
 	</div>
+	<script src="../script/script.js"></script>
+</body>
 
+<div class="footer-container">
 
 	<div class="footer-container">
 
@@ -129,7 +131,7 @@
 			<h4 class="title1"><b>USEFUL LINKS</b></h4>
 			<ul class="list">
 				<p class="foot1"><a class="foot2" href="../index.html">Home</a></p>
-				<p class="foot1"><a class="foot2" href="../gallery/index.html">Gallery</a></p>
+				<p class="foot1"><a class="foot2" href="../gallery/gallery.html">Gallery</a></p>
 				<p class="foot1"><a class="foot2" href="../about/about.html">About</a></p>
 				<p class="foot1"><a class="foot2" href="../contact/contact.html">Contact</a></p>
 			</ul>
@@ -176,7 +178,7 @@
 			</br>
 
 
-			<form onsubmit="mySubscription()" id="userSub">
+			<form id="userSub">
 				<div class="newsletter">
 					<h4 class="title1"><b>NEWSLETTER SIGNUP</b></h4>
 
@@ -184,8 +186,7 @@
 				</div>
 
 				<div class="newsletter">
-					<input type="submit" value="Subscribe" onlclick="mySubscription()" /><br />
-
+					<input class="submitButton" type="button" value="Subscribe" onclick="mySubscription()" /><br />
 				</div>
 			</form>
 
@@ -199,7 +200,7 @@
 		<div class="footer4">
 			</br>
 			</br>
-			<p>&copy; KatMar Fashion Gallery 2021. Built by </p>
+			<p>&copy; KatMar Fashion Gallery 2021. Built by Katarzyna Matuszyk</p>
 		</div>
 
 		<div class="footer5">
@@ -237,18 +238,6 @@
 				</svg></a>
 		</div>
 	</div>
-	</div>
-
-
-
-
-
-
-
-
-
-
-	<script src="../script/script.js"></script>
-</body>
+</div>
 
 </html>
