@@ -22,22 +22,14 @@
 				<h1 class="logo">KatMar Fashion Gallery</h1>
 			</div>
 
-				<div class="col-lg-6">
-					<form role="search" id="form">
-					<div class="wrap">
-						<div class="searchglass">
-							
-							<input type="search" id="query" name="q" class="searchTerm" placeholder="Search this page..." 
-							aria-label="Search through site content">
-							<button type="submit" class="searchButton">
-							<i class="fa fa-search"></i>
-							</button>
-							</form>
-						</div>
-					</div>			
-				</div>
-			</div>	
+			<div class="col-3 align-self-center search-container">
+				<form action="/action_page.php">
+					<input type="text" placeholder="Search.." name="search">
+					<button type="submit"><i class="fa fa-search"></i></button>
+				</form>
+			</div>
 		</div>
+	</div>
 	</br>
 	</br>
 	</br>
