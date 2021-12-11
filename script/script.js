@@ -52,8 +52,6 @@ function mySubscription() {
 
 }
 function hide() {
-    //var tick = document.getElementById("tick");
-    //tick.classList.remove("hidden");
     document.getElementById("userSub").innerHTML = "\u2713 You have subscribed";
 }
 

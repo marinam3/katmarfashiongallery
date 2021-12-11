@@ -124,13 +124,13 @@ h4{
 	flex-basis:10%
 }
 .midcolumn{
-	flex:2;
+	flex:initial;
 	order:2;
-	justify-content:center;
+	justify-content:flex-end;
 	flex-basis:60%;
 	margin:0;
-	padding-left:0;
-	padding-right:0;
+	padding-left:5px;
+	padding-right:5px;
 }
 .main-img{
 	align-self: center;
@@ -164,6 +164,7 @@ h4{
 	display:flex;
 	align-self:center;
 	flex-basis:80%;
+	margin:0;
 }
 .accordion-header{
 	text-decoration-color: black;
@@ -270,9 +271,7 @@ input,textarea{
 .newsletter {
   padding: 5px;
 }
-.hidden{
-	display:none;
-}
+
 /*Button*/
 .footer4{
 	padding: 10px;
