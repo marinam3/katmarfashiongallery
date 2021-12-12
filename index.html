@@ -22,7 +22,9 @@
     <div class="container header">
         <div class="row">
             <div class="col-md-12 logo">
-                <h1 class="logo"><img src="https://img.icons8.com/external-photo3ideastudio-flat-photo3ideastudio/100/000000/external-dress-clothes-photo3ideastudio-flat-photo3ideastudio.png"/>KatMar Fashion Gallery</h1>
+                <h1 class="logo"><img
+                        src="https://img.icons8.com/external-photo3ideastudio-flat-photo3ideastudio/100/000000/external-dress-clothes-photo3ideastudio-flat-photo3ideastudio.png" />KatMar
+                    Fashion Gallery</h1>
             </div>
 
         </div>
@@ -50,7 +52,7 @@
     </div>
     <div class="main-container"></div>
     <div class="row">
-        <div class="leftcolumn" class="col-sm-2">
+        <div class="leftcolumn">
             <div class="card">
                 <div>
                     <div class="card-header">
@@ -85,14 +87,14 @@
                 </div>
             </div>
         </div>
-        <div class="midcolumn" class="col-sm-4">
+        <div class="midcolumn">
             <div class="main-img">
                 <a href="gallery/gallery.html"> <img src="images/shopinterior.jpeg"
                         alt="picture of dresses on mannequins" target="_blank">
                 </a>
             </div>
         </div>
-        <div class="rightcolumn" class="col-sm-2">
+        <div class="socialcolumn" class="col-sm-2">
             <div>
                 <div class="social-box" class="example-content-secondary" data-bs-spy="overflow-y:scroll;"
                     data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" height="20%"
@@ -110,7 +112,7 @@
     </br>
     <div class="container-revs">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="accordion">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -183,7 +185,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <h2>Upcoming Events:</h2>
                 </br>
                 <h5>28th December 2021</h5>
@@ -194,9 +196,6 @@
                 </br>
                 <h5>6th February 2022</h5>
                 <p>Some text here representing an upcoming event and event highlights</p>
-
-            </div>
-            <div class="col-md-1">
             </div>
         </div>
         <br>
@@ -265,18 +264,19 @@
             </br>
 
 
-            <form onsubmit="mySubscription()" id="userSub">
-			<div class="newsletter">
-			<h4 class="title1"><b>NEWSLETTER SIGNUP</b></h4>
-			
-			<input type="text" id="userEmail" class="formstyle" placeholder="Email address" name="mail" required>
-			</div>
+            <form id="userSub">
+                <div class="newsletter">
+                    <h4 class="title1"><b>NEWSLETTER SIGNUP</b></h4>
 
-			<div class="newsletter">
-			<input type="submit" class="subbutton" value="Subscribe" onlclick="mySubscription()"/><br/>
-			
-			</div>
-			</form>
+                    <input type="text" id="userEmail" class="formstyle" placeholder="Email address" name="mail"
+                        required>
+                </div>
+
+                <div class="newsletter">
+                    <input type="button" class="subbutton" value="Subscribe" onclick="mySubscription()" /><br />
+
+                </div>
+            </form>
 
 
         </div>
