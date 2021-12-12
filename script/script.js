@@ -75,3 +75,35 @@ function myFunction(imgs) {
     // Show the container element (hidden with CSS)
     expandImg.parentElement.style.display = "block";
 }
+
+//Go to the Top Button 
+var mybutton = document.getElementById("topBtn");
+
+//Go to the Top Button-after 20px from the top the button will show
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+//Go to the Top Button- clicks on the button and it will scroll to the top
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+//jQuery Contact Page show phone,address and Opening Hours
+$( "#but1" ).click(function() {
+  $( "#show1" ).toggle( "slow" );
+});
+$( "#but2" ).click(function() {
+  $( "#show2" ).toggle( "slow" );
+});
+$( "#but3" ).click(function() {
+  $( "#show3" ).toggle( "slow" );
+});
+
