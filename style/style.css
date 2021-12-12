@@ -217,7 +217,7 @@ h4{
 	text-align: center;
 	flex:1;
 	order:2;
-	border-style: 3px solid;
+	border-style: solid;
 	border-color: #4da6ff;
 }
 /* Get in touch form and newsletter */

@@ -25,18 +25,25 @@
                 <h1 class="logo">KatMar Fashion Gallery</h1>
             </div>
 
-            <div class="col-md-3 align-self-center search-container">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
+            <div class="col-md-3">
+                <form role="search" id="form">
+					<div class="wrap">
+						<div class="searchglass">							
+							<input type="search" id="query" name="q" class="searchTerm" placeholder="Search this page..." 
+							aria-label="Search through site content">
+							<button type="submit" class="searchButton">
+							<i class="fa fa-search"></i>
+							</button>
+				</form>
+					</div>
+					</div>
             </div>
         </div>
     </div>
     </br>
     </br>
-    <div class=navbar-box>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #3ca39e;">
+    <div class="navbar-box">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"

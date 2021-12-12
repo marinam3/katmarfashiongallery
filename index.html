@@ -25,11 +25,18 @@
                 <h1 class="logo">KatMar Fashion Gallery</h1>
             </div>
 
-            <div class="col-md-3 align-self-center search-container">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
+            <div class="col-md-3">
+                <form role="search" id="form">
+					<div class="wrap">
+						<div class="searchglass">							
+							<input type="search" id="query" name="q" class="searchTerm" placeholder="Search this page..." 
+							aria-label="Search through site content">
+							<button type="submit" class="searchButton">
+							<i class="fa fa-search"></i>
+							</button>
+				</form>
+					</div>
+					</div>
             </div>
         </div>
     </div>
@@ -271,17 +278,18 @@
             </br>
 
 
-            <form id="userSub">
-                <div class="newsletter">
-                    <h4 class="title1"><b>NEWSLETTER SIGNUP</b></h4>
+            <form onsubmit="mySubscription()" id="userSub">
+			<div class="newsletter">
+			<h4 class="title1"><b>NEWSLETTER SIGNUP</b></h4>
+			
+			<input type="text" id="userEmail" class="formstyle" placeholder="Email address" name="mail" required>
+			</div>
 
-                    <input type="text" id="userEmail" placeholder="Email address" name="mail" required>
-                </div>
-
-                <div class="newsletter">
-                    <input class="submitButton" type="button" value="Subscribe" onclick="mySubscription()" /><br />
-                </div>
-            </form>
+			<div class="newsletter">
+			<input type="submit" class="subbutton" value="Subscribe" onlclick="mySubscription()"/><br/>
+			
+			</div>
+			</form>
 
 
         </div>
