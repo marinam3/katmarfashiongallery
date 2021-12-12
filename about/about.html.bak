@@ -169,7 +169,8 @@
 	</br>
 	</br>
 	</br>
-
+	<script src="../script/script.js"></script>
+</body>
 <div class="footer-container">
 	<div class="footer-container">
 
@@ -286,10 +287,9 @@
 		</div>
 	</div>
 </div>
+</footer>
 
 
-	<script src="../script/script.js"></script>
-</body>
 
 
 
