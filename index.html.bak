@@ -278,17 +278,18 @@
             </br>
 
 
-            <form id="userSub">
-                <div class="newsletter">
-                    <h4 class="title1"><b>NEWSLETTER SIGNUP</b></h4>
+            <form onsubmit="mySubscription()" id="userSub">
+			<div class="newsletter">
+			<h4 class="title1"><b>NEWSLETTER SIGNUP</b></h4>
+			
+			<input type="text" id="userEmail" class="formstyle" placeholder="Email address" name="mail" required>
+			</div>
 
-                    <input type="text" id="userEmail" placeholder="Email address" name="mail" required>
-                </div>
-
-                <div class="newsletter">
-                    <input class="submitButton" type="button" value="Subscribe" onclick="mySubscription()" /><br />
-                </div>
-            </form>
+			<div class="newsletter">
+			<input type="submit" class="subbutton" value="Subscribe" onlclick="mySubscription()"/><br/>
+			
+			</div>
+			</form>
 
 
         </div>
