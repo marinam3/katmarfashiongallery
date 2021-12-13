@@ -142,6 +142,19 @@ h4{
 	overflow:auto;
 	flex-basis:20%;
 }
+.welcome{
+	justify-content: center;
+	text-align: left;	
+	align-items:center;
+	border-top: 4px dotted blue;
+	border-bottom: 4px dotted blue;
+}
+.welcome_text{
+	font-family: 'Magneto';
+	font-size:45px;
+	line-height:1.5;
+	color: blue;
+}
 .row {
 	margin: 0 5px;
 }
