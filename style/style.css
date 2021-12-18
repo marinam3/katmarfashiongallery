@@ -149,6 +149,7 @@ h4{
 .welcome_text{
 	font-family: 'Magneto';
 	font-size:45px;
+  align-self: center;
 	line-height:1.5;
 	color: blue;
 }
@@ -663,7 +664,6 @@ p{
 	display: flex;
 	flex-wrap:wrap;
 	justify-content: center;
-	flex-grow: unitless value;
 }
 
 .box-inside1{
