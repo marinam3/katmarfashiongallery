@@ -21,11 +21,16 @@ function myMessage() {
 
   var name = document.getElementById("userName").value;
   var email = document.getElementById("userEmail").value;
+  var age = document.getElementById("userAge").value;
   var message = document.getElementById("userMessage").value;
-  if (email.match(mailformat)) {
+  if (email.match(mailformat) && age>=18)  {
     document.getElementById("userForm").innerHTML = name + ", thank you for your details. We will be in touch via " + email + " shortly.";
     hide();
   }
+  else if (email.match(mailformat) && age<18){
+	document.getElementById("userForm").innerHTML = name + ", thank you for your details but " + age + " is to young to leave a message";
+    hide();
+  }  
   else {
     alert("You have entered an invalid email address!");
     return (false);
@@ -35,7 +40,6 @@ function myMessage() {
 function hide() {
   document.getElementById("userForm").style.display = "none";
 }
-
 
 //Newsletter Form
 function hidden() {
@@ -81,11 +85,11 @@ function myFunction(imgs) {
 //Go to the Top Button 
 var mybutton = document.getElementById("topBtn");
 
-//Go to the Top Button-after 20px from the top the button will show
+//Go to the Top Button-after 25px from the top the button will show
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -96,6 +100,24 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+//Modal of 2 woman img on About Page
+var modal = document.getElementById('womanModal');
+
+var img = document.getElementById('womanImg');
+var modalImg = document.getElementById("imgIn");
+var captionText = document.getElementById("captModal");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("clModal")[0];
+
+span.onclick = function() { 
+    modal.style.display = "none";
 }
 
 //jQuery Contact Page show phone,address and Opening Hours
