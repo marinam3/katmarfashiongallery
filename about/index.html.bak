@@ -20,9 +20,8 @@
 			width="46" height="46" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
 			<path
 				d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
-		</svg></button>
-	</br>
-	</br>
+		</svg>
+	</button>
 	<div class="container header">
 		<div class="row">
 			<div class="col-lg-10 logo">
@@ -30,7 +29,6 @@
 						src="https://img.icons8.com/external-photo3ideastudio-flat-photo3ideastudio/100/000000/external-dress-clothes-photo3ideastudio-flat-photo3ideastudio.png" />KatMar
 					Fashion Gallery</h1>
 			</div>
-
 			<div class="col-lg-6">
 				<form role="search" id="form">
 					<div class="wrap">
@@ -41,10 +39,10 @@
 								<i class="fa fa-search"></i>
 							</button>
 				</form>
+				</div>
+			</div>
 			</div>
 		</div>
-	</div>
-	</div>
 	</div>
 	</br>
 	</br>
@@ -67,8 +65,8 @@
 							</svg></a>
 						<a class="nav-link active" aria-current="page" href="../about/about.html" target="_blank">About
 							Us</a>
-						<a class="nav-link" href="../gallery/gallery.html" target="_blank">Gallery</a>
-						<a class="nav-link" href="../contact/contact.html" target="_blank">Contact
+						<a class="nav-link" href="../gallery/index.html" target="_blank">Gallery</a>
+						<a class="nav-link" href="../contact/index.html" target="_blank">Contact
 							Us</a>
 					</div>
 				</div>
@@ -103,7 +101,12 @@
 		</br>
 		<div class="row wom_box">
 			<div class="col-lg-6">
-				<img src="../images/2_woman.jpg" alt="Two woman" width="416" height="448">
+				<img id="womanImg" src="../images/2_woman.jpg" alt="Two woman - Owners of a Gallery" width="410" height="450">
+			</div>
+			<div id="womanModal" class="modalBackgd">
+			<span class="clModal">x</span>
+			<img class="contModal" id="imgIn">
+			<div id="captModal"></div>
 			</div>
 
 			<div class="col-lg-6">
