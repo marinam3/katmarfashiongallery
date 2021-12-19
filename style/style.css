@@ -5,15 +5,16 @@ body{
 	line-height:1.5;
 	background-color:whitesmoke;	
 }
+
 /*Announcment Bar on Index Page*/
 .marquee {
-  position: relative;
-  overflow: hidden;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  margin: 0 0 40px 0;
-   background: #ff0000;
+	position: relative;
+	overflow: hidden;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	margin: 0 0 40px 0;
+	background: #ff0000;
 }
 
 .marquee-keywords-red {
