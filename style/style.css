@@ -153,31 +153,49 @@ h4{
 	color: #6666ff;;
 }
 /*Index Page*/
-.main-container{
-	display:flex;
-}
 .leftcolumn{
-	flex:1;
-	order:1;
 	align-content:center;
-	flex-basis:20%
+	width:20%
 }
 .midcolumn{
-	flex:1;
-	order:2;
-	flex-basis:60%;
+	width:60%;
 	margin:0;
 	padding-left:5px;
-	padding-right:0;
+	padding-right:5px;
 }
 .socialcolumn{
-	flex:1;
-	order:3;
 	height:505px;
-	width:20%;
+	width:18%;
 	border:1px solid #ccc;
 	overflow:auto;
-	flex-basis:20%;
+	margin-top: 1px;
+}
+@media only screen and (max-width: 1000px) {
+    .maincontainer{
+        display:flex;
+    }
+    .leftcolumn, .socialcolumn{
+        flex:1;
+        flex-basis:50%;
+    }
+    .midcolumn{
+        flex:1;
+        flex-basis:100%;
+    }
+}
+/*for mobile phone screen*/
+@media only screen and (max-width: 780px) {
+    .maincontainer{
+        display:flex;
+    }
+    .leftcolumn, .socialcolumn{
+        flex:1;
+        flex-basis:100%;
+    }
+    .midcolumn{
+        flex:1;
+        flex-basis:100%;
+    }
 }
 .welcome{
 	justify-content: center;
