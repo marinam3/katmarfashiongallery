@@ -291,6 +291,11 @@ h4{
     border-style:ridge;
 	border-color: #4da6ff;
 }
+@media only screen and (max-width: 780px) {
+    .map{
+        width:50%;
+    }
+}
 /* Get in touch form and newsletter */
 .formstyle{
 	width:50%;
