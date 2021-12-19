@@ -102,24 +102,6 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-//Modal of 2 woman img on About Page
-var modal = document.getElementById('womanModal');
-
-var img = document.getElementById('womanImg');
-var modalImg = document.getElementById("imgIn");
-var captionText = document.getElementById("captModal");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    modalImg.alt = this.alt;
-    captionText.innerHTML = this.alt;
-}
-var span = document.getElementsByClassName("clModal")[0];
-
-span.onclick = function() { 
-    modal.style.display = "none";
-}
-
 //jQuery Contact Page show phone,address and Opening Hours
 $("#but1").click(function () {
   $("#show1").toggle("slow");
